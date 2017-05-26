@@ -12,7 +12,7 @@ if(!empty($_POST['menoLDAP']) && !empty($_POST['hesloLDAP'])) {
     if ($result1->num_rows) {
         while ($row1 = $result1->fetch_row()) {
             foreach ($row1 as $key1 => $val1) {
-                if ($_POST['menoLDAP'] == "xpazitnyp1" || $_POST['menoLDAP'] == "xogurcaks1" || $_POST['menoLDAP'] == "xmrva" || $_POST['menoLDAP'] == "xhivko" || $_POST['menoLDAP'] == "xmasikova") {
+                if ($_POST['menoLDAP'] == $val1) {
                     $ldapuid = $_POST['menoLDAP'];
                     $ldappass = $_POST['hesloLDAP'];
                     $dn = 'ou=People, DC=stuba, DC=sk';
@@ -30,7 +30,7 @@ if(!empty($_POST['menoLDAP']) && !empty($_POST['hesloLDAP'])) {
                         @ldap_close($ldapconn);
                         $ch = curl_init('http://is.stuba.sk/lide/clovek.pl');
                         $data = array(
-                            'id' => 4948,
+                            'id' => $usrId,
                             'lang' => 'sk',
                         );
                         curl_setopt($ch, CURLOPT_POST, 1);
