@@ -1,0 +1,140 @@
+.dropdown-submenu {
+    position: relative;
+
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+.navbar 
+{
+	
+	margin-top:-20px;
+	
+	
+	
+}
+.jumbotron
+{
+	margin-top:-20px;
+	position:relative;
+	margin-bottom:0px;
+	padding:10px;
+	background-color:#FFFFFF;
+	
+}
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+     background-color:gray;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+	.footer
+	{
+		
+		position:relative;
+		float:right;
+		margin-top:10%;
+		
+		
+	}
+	.tvorcovia
+	{
+		
+		position:relative;
+		float:left;
+		margin-left:10%;
+	
+		
+		
+	}
+	
+	.active
+	{
+		
+		background-color:gray;
+		
+	}
+	.nadpis
+	{
+		position:absolute;
+		top:0px;
+		right:1%;
+		height:8%;"	}
+
+		
+	}
+		.linkyf
+	{
+		position:relative;
+		width:300px;
+		float:left;
+		margin-left:5%;
+		
+		
+	}
+	.media
+	{
+		
+		
+		position:relative;
+		float:right;
+		
+		
+	}
+h1 {
+    text-decoration: underline;
+	
+}
+a{
+	
+	color:white;
+}
+.clanky
+{
+	
+	color: black;
+	
+}
+.meno
+{
+	position:relative;
+	color:white;
+	bottom:-10px;
+	
+	margin-right:5%;
+	
+	
+}
+.odhl
+{
+	
+	position:relative;
+	color:black;
+	bottom:-10px;
+	right:3px;
+	
+	
+	
+}
+	

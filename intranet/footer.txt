@@ -1,0 +1,23 @@
+<br><br><br>
+<footer class="container-fluid">
+ <div class="linkyf">
+  <h1>Užitočné linky</h1> 
+  <p><a  href="http://is.stuba.sk/">AIS STU</a></p>
+  <p><a  href="http://aladin.elf.stuba.sk/rozvrh/">Rozvrh hodín FEI</a></p>
+  <p><a  href="http://elearn.elf.stuba.sk/moodle/">Moodle FEI</a></p>
+  <p><a  href="http://www.sski.sk/webstranka/">SSKI</a></p>
+  <p><a  href="https://www.jedalen.stuba.sk/WebKredit/">Jedáleň STU</a></p>
+  <p><a  href="https://webmail.stuba.sk/">Webmail STU</a></p>
+  <p><a  href="https://kis.cvt.stuba.sk/i3/epcareports/epcarep.csp?ictx=stu&language=1">Evidencia publikácií STU</a></p>
+  <p><a  href="http://okocasopis.sk/">Časopis OKO</a></p>
+  </div>
+  <div class="tvorcovia">
+  <h1 class="nadpist">Tvorcovia</h1>
+<p>Samuel Ogurčák</p> 
+<p>Andrea Mášiková</p> 
+<p>Peter Pažitný</p> 
+<p>Šimon Hivko</p> 
+<p>Pavol Mrva</p>  
+  </div>
+  <div class="footer"><div class="media"><span><a  href="https://www.facebook.com/UAMTFEISTU"><img src="subory/facebook.png" alt="STU" style="width:180px;height:150px;"></a></span><span><a  href="https://www.youtube.com/channel/UCo3WP2kC0AVpQMIiJR79TdA"><img src="subory/YouTube.png" alt="STU" style="width:180px;height:150px;"></a></span></div></div>
+</footer>

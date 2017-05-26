@@ -1,0 +1,39 @@
+
+
+
+div.row{
+	margin-bottom:10px;
+}
+div{
+	text-align:left;
+	
+}
+div.dolava{
+	border:2px solid black;
+	padding:5px;
+}
+div.ha{
+	background-color:#b3e0ff;
+	margin:10px;
+	border-radius:10px;
+	padding:5px;
+}
+
+#spolu {
+    overflow: hidden;
+
+}
+
+#hlavny{
+	position:relative;
+	left:100px;
+	top:50px;
+	overflow: hidden;
+	float:left;
+}
+#pravy {
+    position:relative;
+    top:-400px;
+	left:700px;
+    
+}

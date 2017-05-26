@@ -1,0 +1,50 @@
+h1.nad{
+   padding-left: 40%;
+}
+h3{
+   padding-left: 5%;
+
+}
+
+.texty{
+    text-align:justify;
+
+    margin-left: 25%;
+padding-left:2%; 
+padding-right:1.5%; 
+padding-bottom:2%; 
+padding-top:1%; 
+    max-width: 50%;
+}
+
+
+.tabulka{
+    text-align:justify;
+
+    margin-left: 10%;
+padding-left:2%; 
+padding-right:1.5%; 
+padding-bottom:2%; 
+padding-top:1%; 
+    max-width: 75%;
+}
+.videa{
+
+    margin-left: 10%;
+
+}
+
+
+label{
+	
+	width:15em;
+	float:left;
+}
+.uvod{
+	float:left;
+padding-left:2%; 
+padding-right:5%; 
+
+height: 350;
+    max-width: 60%;
+}

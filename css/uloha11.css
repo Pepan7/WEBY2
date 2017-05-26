@@ -1,0 +1,165 @@
+
+
+
+/*.row > .column {
+  padding: 4;
+}*/
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin:80px;
+}
+
+.column2 {
+  position:relative;
+  top:50px;
+  left:50px;
+  float: left;
+  width: 14%;
+}
+
+/* The Modal (background) */
+.modal2 {
+  margin: auto;
+  display:none;
+  position: fixed;
+  z-index: 0;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  margin: auto;
+  
+}
+
+/* Modal Content */
+.modal-content2 {
+	
+  position: relative;
+  background-color: black;
+  margin: auto;
+  padding: 0px;
+  width: 90%;
+  max-width: 1200px;
+  z-index:10;
+}
+
+/* The Close Button */
+.close2 {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides2 {
+  
+  display: none;
+  
+}
+.popis0{
+	position:relative;
+	font-size:30px;
+	color:white;
+	width:800px;
+	height:200px;
+	background-color:black;
+}
+
+.popis1{
+	position:relative;
+	font-size:30px;
+	color:white;
+	width:800px;
+	height:200px;
+	background-color:black;
+}
+
+.popis2{
+	position:relative;
+	font-size:30px;
+	color:white;
+	width:800px;
+	height:200px;
+	background-color:black;
+}
+
+.popis3{
+	position:relative;
+	font-size:30px;
+	color:white;
+	width:800px;
+	height:200px;
+	background-color:black;
+}
+
+.popis4{
+	position:relative;
+	font-size:30px;
+	color:white;
+	width:800px;
+	height:200px;
+	background-color:black;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 5);
+  
+}
+
+img.hover-shadow2 {
+  transition: 0.3s
+}
+
+.hover-shadow2:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  
+}
+
+.gombik{
+	position:relative;
+	left:50%;
+	z-index:2;
+	
+}
+#myModal2{
+	z-index:100;
+}

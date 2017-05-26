@@ -1,0 +1,65 @@
+﻿<div class="jumbotron">
+ <div class="nadpis1"><img src="subory/top-car.png" alt="STU" style="width:16%;height:8%;"></div>
+  <div class="nadpis"><h1>Ústav automobilovej mechatroniky<h1></div>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.php">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href=" ">O nás<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a  href="historia.php">História</a></li>
+          <li><a  href="vedenie.php">Vedenie ústavu</a></li>
+          <li class="dropdown-submenu">
+              <a  class="test" tabindex="-1" href="#">Oddelenia<span class="caret"></span></a>
+                <ul class="dropdown-menu navbar-right">
+                    <li><a tabindex="-1" href="OAMM.php">OAMM</a></li>
+                    <li><a tabindex="-1" href="OIKR.php">OIKR</a></li>
+                    <li><a tabindex="-1" href="OEMP.php">OEMP</a></li>
+                    <li><a tabindex="-1" href="OEAP.php">OEAP</a></li>
+                </ul>
+          </li>  
+        </ul>
+      </li>
+      <li><a href="Pracovnici.php">Pracovníci</a></li>
+	  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href=" ">Štúdium<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a  href="Pre_uchádzačov_o_štúdium.php">Pre uchádzačov o štúdium</a></li>
+          <li><a  href="Bakalárske_štúdium.php">Bakalárske štúdium</a></li>
+		  <li><a  href="Inžinierske_štúdium.php">Inžinierske štúdium</a></li>
+          <li><a  href="Doktorandské_štúdium.php">Doktorandské štúdium</a></li>
+	    </ul>
+	  </li>
+	 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href=" ">Výskum<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a  href="uloha8.php">Projekty</a></li>
+          <li class="dropdown-submenu">
+              <a  class="test" tabindex="-1" href=" ">Výskumné oblasti<span class="caret"></span></a>
+                <ul class="dropdown-menu navbar-right">
+                    <li><a tabindex="-1" href="Elektrická_motokára.php">Elektrická motokára</a></li>
+                    <li><a tabindex="-1" href="Autonómne_vozidlo.php">Autonómne vozidlo 6×6</a></li>
+                    <li><a tabindex="-1" href="3D_LED_kocka.php">3D LED kocka</a></li>
+                    <li><a tabindex="-1" href="Biomechatronika.php">Biomechatronika</a></li>
+                </ul>
+          </li>  
+        </ul>
+      </li>
+	   <li><a href="aktuality.php?lang=SK">Aktuality</a></li>
+	   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href=" ">Aktivity<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a  href="uloha11.php">Fotogaléria</a></li>
+		  <li><a  href="uloha12.php">Videá</a></li>
+		  <li><a  href="media.php">Médiá</a></li>
+          <li class="dropdown-submenu">
+              <a  class="test" tabindex="-1" href=" ">Naše tématické web stránky<span class="caret"></span></a>
+                <ul class="dropdown-menu navbar-right">
+                    <li><a tabindex="-1" href="http://www.e-mobilita.fei.stuba.sk/">Elektromobilita</a></li>
+                </ul>
+          </li>  
+        </ul>
+      </li>
+	  <li><a href="kontakt.php">Kontakt</a></li>
+	  <li><a href="../intranet/prihlasitsadointranetu.php">Intranet</a></li>
+    </ul>

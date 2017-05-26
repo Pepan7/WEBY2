@@ -1,0 +1,65 @@
+h1.nad{
+   padding-left: 40%;
+}
+
+th, td{
+    border-bottom: 3px solid #ddd;
+
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+img {
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 10px;
+
+}
+
+
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top:50px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    opacity: 1;
+
+}
+
+.close {
+    background-color: whitesmoke;
+    color: whitesmoke;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.info{
+    cursor:pointer;
+}
+.modal-content{
+    position: relative;
+    overflow: auto;
+    margin-left: 15%;
+    padding-right: 3%;
+    padding-left: 5%;
+    width: 70%;
+    height: 100%;
+
+}
+.rozdelenie{
+ position: relative;
+    overflow: auto;
+    margin-left: 25%;
+    width: 55%;
+    height: 100%;
+}
+

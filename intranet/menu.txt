@@ -1,0 +1,19 @@
+﻿<div class="jumbotron">
+ <div class="nadpis1"><img src="subory/top-car.png" alt="STU" style="width:16%;height:8%;"></div>
+  <div class="nadpis"><h1>Intranet<h1></div>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+	 <li class="active"><a href="../strankySK/index.php">Home</a></li>
+	  <li><a href="adminpanel.php">Administratorsky panel</a></li>
+     <li><a href=" ">Pedagogika</a></li>
+	 <li><a href=" ">Doktorandi</a></li>
+	 <li><a href=" ">Publikácie</a></li>
+	 <li><a href=" ">Služobné cesty</a></li>
+	  <li><a href="nakupy.php">Nákupy</a></li>
+	  <li><a href="dochadzka.php">Dochádzka</a></li>
+	  <li><a href="rozdelenieuloh.php ">Rozdelenie úloh</a></li>
+    </ul>
