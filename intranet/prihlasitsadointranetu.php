@@ -25,8 +25,8 @@ $text .= "<ul class='nav navbar-nav navbar-right'>
 echo $text;
 ?>
 <form action="prihlasenie.php" method="post">
-    <input required name="menoLDAP" type="text">
-    <input required name="hesloLDAP" type="password">
+    <input placeholder="Login do AIS" required name="menoLDAP" type="text">
+    <input placeholder="Heslo do AIS" required name="hesloLDAP" type="password">
     <input type="submit" value="Prihlásiť">
 </form>
 <br><br><br><br><br><br><br><br>
